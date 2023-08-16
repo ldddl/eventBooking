@@ -1,3 +1,82 @@
-.index-title {
-  font-size: 100px;
+.banner{
+  background: url('/assets/images/event/13.jpg') center/cover;
+  .banner-image{
+    h2{
+      margin-bottom: 279px;
+      font-size: 60px;
+      @include pad{
+        margin-bottom: 210px;
+        font-size: 32px;
+        // width: calc((113px / 399px)*100%);
+      }
+      @include mobile{
+        max-width: 113px;
+        // width: calc((113px / 351px)*100%);
+      }
+    }
+  }
+  .banner-text{
+    text-align: center;
+    @include pad{
+      text-align: left;
+    }
+    h3{
+      font-size: 24px;
+      @include pad{
+        font-size: 18px;
+      }
+    }
+    p{
+      margin: 0 auto;
+      max-width: calc((832px / 1416px)*100%);
+    }
+  }
+}
+.explore-more{
+  li{
+    width: 196px;
+    height: 196px;
+    @include pad{
+      width: 112px;
+      height: 112px;
+    }
+  }
+  a{
+    width: 196px;
+    height: 196px;
+    display: flex;
+    flex-direction: column;
+    text-decoration:none;
+    @include pad{
+      width: 112px;
+      height: 112px;
+    }
+  }
+  img{
+    width: 80px;
+    @include pad{
+      width: 40px;
+    }
+  }
+  p{
+    font-weight: 700;
+  }
+  .explore-more-pStyle{
+    font-size: 24px;
+    @include mobile{
+      font-size: 16px;
+    }
+  }
+  .explore-more-p{
+    font-size: 48px;
+    width: 96px;
+    line-height: 1.25;
+    @include pad{
+      font-size: 24px;
+      width: 48px; 
+    }
+  }
+  .explore-more-p:hover{
+    color: #000;
+  }
 }
