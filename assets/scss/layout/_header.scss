@@ -1,0 +1,22 @@
+.logo {
+  a {
+    width: 53px;
+    height: 53px;
+    display: block;
+    background: url(/assets/images/logo.png) no-repeat center /cover;
+    /* 圖片取代文字技巧 */
+    text-indent: 101%;
+    white-space: nowrap;
+    overflow: hidden;
+    @include pad {
+      width: 40px;
+      height: 40px;
+    }
+  }
+}
+.nav-form{
+  @include pad {
+    // width: 61.65%;
+    width: calc((246px / 399px)*100%);
+  }
+}
