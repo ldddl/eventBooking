@@ -1,0 +1,37 @@
+* {
+  // border: 1px solid rgb(187, 0, 255); /* 調整邊框的樣式和顏色 */
+}
+.login{
+  width: 29.399%;
+  margin: 0 auto;
+  @include pad{
+    width: 100%;
+  }
+  .login-content{
+    ul{
+      width: 100%;
+    }
+    li{
+      width: 100%;
+    }
+  }
+  .login-logo{
+    width: 32px;
+  }
+  input{
+    background-color: #F3F1E5;
+  }
+  .login-a{
+    width: 100%;
+    margin-bottom: 175px;
+    @include mobile{
+      margin-bottom: 264px;
+    }
+    p{
+      font-size: 20px;
+      @include mobile{
+        font-size: 18px;
+      }
+    }
+  }
+}

@@ -1,157 +1,162 @@
-.banner{
-  background: url('/assets/images/event/13.jpg') center/cover;
-  .banner-image{
-    h2{
+.banner {
+  background: url("/assets/images/event/13.jpg") center/cover;
+  .banner-image {
+    h2 {
       margin-bottom: 279px;
       font-size: 60px;
-      @include pad{
+      @include pad {
         margin-bottom: 210px;
         font-size: 32px;
       }
-      @include mobile{
+      @include mobile {
         max-width: 113px;
       }
     }
   }
-  .banner-text{
+  .banner-text {
     text-align: center;
-    @include pad{
+    @include pad {
       text-align: left;
     }
-    h3{
+    h3 {
       font-size: 24px;
-      @include pad{
+      @include pad {
         font-size: 18px;
       }
     }
-    p{
+    p {
       margin: 0 auto;
-      max-width: calc((832px / 1416px)*100%);
+      max-width: calc((832px / 1416px) * 100%);
     }
   }
 }
-.explore-more{
-  li{
+.explore-more {
+  li {
     width: 196px;
     height: 196px;
-    @include pad{
+    @include pad {
       width: 112px;
       height: 112px;
     }
-    @include mobile{
-      width: calc((112px / 351px)*100%);
+    @include mobile {
+      width: calc((112px / 351px) * 100%);
       height: 112px;
     }
   }
-  a{
+  a {
     display: inline-block;
     width: 196px;
     height: 196px;
     display: flex;
     flex-direction: column;
-    text-decoration:none;
-    @include pad{
+    text-decoration: none;
+    @include pad {
       width: 112px;
       height: 112px;
     }
   }
-  img{
+  img {
     width: 80px;
-    @include pad{
+    @include pad {
       width: 40px;
     }
   }
-  p{
+  p {
     font-weight: 700;
   }
-  .explore-more-pStyle{
+  .explore-more-pStyle {
     font-size: 24px;
-    @include mobile{
+    @include mobile {
       font-size: 16px;
     }
   }
-  .explore-more-p{
+  .explore-more-p {
     font-size: 48px;
     width: 96px;
     line-height: 1.25;
-    @include pad{
+    @include pad {
       font-size: 24px;
-      width: 48px; 
+      width: 48px;
     }
   }
 }
-.recent{
-  .recent-content{
-    h2{
+.recent {
+  .recent-content {
+    h2 {
       font-size: 64px;
-      @include pad{
+      @include pad {
         font-size: 24px;
       }
     }
-    p{
+    p {
       font-size: 32px;
       font-weight: 700;
-      @include mobile{
+      @include mobile {
         font-size: 16px;
       }
     }
   }
-  li{
-    h2{
-      font-size: 48px; 
-      @include pad{
+  li {
+    h2 {
+      font-size: 48px;
+      @include pad {
         font-size: 32px;
       }
     }
-    h3{
+    h3 {
       font-size: 24px;
       margin-bottom: 12px;
       font-weight: 700;
-       @include pad{
+      @include pad {
         font-size: 18px;
         margin-bottom: 8px;
       }
     }
-    a{
+    a {
       text-decoration: none;
       display: flex;
       justify-content: space-between;
     }
   }
-  .recent-p-left{
-    img{
-      @include pad{
+  .recent-p-left {
+    img {
+      @include pad {
         width: 20px;
       }
     }
   }
-  .recent-background-01{
+  .recent-background-01 {
     background: url(/assets/images/event/01.jpg);
   }
-  .recent-background-02{
+  .recent-background-02 {
     background: url(/assets/images/event/02.jpg);
   }
-  .recent-background-03{
+  .recent-background-03 {
     background: url(/assets/images/event/03.jpg);
   }
-  .recent-background-04{
+  .recent-background-04 {
     background: url(/assets/images/event/04.jpg);
   }
-  .recent-background-05{
+  .recent-background-05 {
     background: url(/assets/images/event/05.jpg);
   }
-  .recent-background-06{
+  .recent-background-06 {
     background: url(/assets/images/event/06.jpg);
   }
-  .recent-background-01,.recent-background-02,.recent-background-03,.recent-background-04,.recent-background-05,.recent-background-06{
+  .recent-background-01,
+  .recent-background-02,
+  .recent-background-03,
+  .recent-background-04,
+  .recent-background-05,
+  .recent-background-06 {
     background-size: cover; /* 充滿整個容器 */
     background-repeat: no-repeat;
-    background-position: center center; 
+    background-position: center center;
     width: 100%;
     height: 255px;
   }
-  .recent-p-style{
-    font-size: 16px; 
+  .recent-p-style {
+    font-size: 16px;
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
@@ -160,157 +165,155 @@
     margin-bottom: 16px;
   }
 }
-.online{
-  .online-content{
-    h2{
+.online {
+  .online-content {
+    h2 {
       font-size: 64px;
-      @include pad{
+      @include pad {
         font-size: 24px;
       }
     }
-    p{
+    p {
       font-size: 32px;
       font-weight: 700;
-      @include mobile{
+      @include mobile {
         font-size: 16px;
       }
     }
   }
-  .online-image{
-    background: url(/assets/images/event/online.jpg) ;
+  .online-image {
+    background: url(/assets/images/event/online.jpg);
     background-size: cover; /* 充滿整個容器 */
     background-position: 0px 33%;
     background-repeat: no-repeat;
-    // height: 317px;
     height: 330px;
-    @include mobile{
+    @include mobile {
       background-position: 0px 32%;
       height: 154px;
     }
   }
-  .online-image-content{
-    h3{
+  .online-image-content {
+    h3 {
       font-size: 32px;
       line-height: 1.5;
     }
-    li{
+    li {
       padding: 4px 24px;
       border-left: 4px solid #000;
       border-top: 1px solid #000;
       border-bottom: 1px solid #000;
       border-right: 1px solid #000;
-      @include mobile{
+      @include mobile {
         padding: 4px 16px;
-       }
+      }
     }
   }
-  .pStyle{
+  .pStyle {
     font-size: 20px;
   }
 }
-.photoGallery{
+.photoGallery {
   li {
     position: relative;
-    max-width: calc((306px / 1415px)*100%);
+    max-width: calc((306px / 1415px) * 100%);
     padding: 16px 16px 48px 16px;
-    @include mobile{
+    @include mobile {
       max-width: 80%;
       margin: 0 auto;
       padding: 12px 12px 32px 12px;
     }
   }
-  h3{
+  h3 {
     position: absolute;
     top: -30px;
     right: 30%;
     margin: 0 auto;
     text-align: center;
     font-size: 16px;
-    background: #FFF;
+    background: #fff;
     width: 96px;
-    padding-top: 9.1px ;
-    padding-bottom: 9.1px ;
+    padding-top: 9.1px;
+    padding-bottom: 9.1px;
   }
-  .photoGallery{
+  .photoGallery {
     max-width: 274px;
     height: 274px;
   }
-  .photoGallery-image01{
+  .photoGallery-image01 {
     background: url(/assets/images/album/01.jpg) center center/cover;
   }
-  .photoGallery-image02{
+  .photoGallery-image02 {
     background: url(/assets/images/album/02.jpg) center center/cover;
   }
-  .photoGallery-image03{
+  .photoGallery-image03 {
     background: url(/assets/images/album/03.jpg) center center/cover;
   }
-  .photoGallery-image04{
+  .photoGallery-image04 {
     background: url(/assets/images/album/04.jpg) center center/cover;
   }
-  .transform-2{
+  .transform-2 {
     transform: rotate(2deg);
   }
-  .transform-3{
+  .transform-3 {
     transform: rotate(3deg);
   }
-  .transform-4{
+  .transform-4 {
     transform: rotate(4deg);
   }
-  .transform-n2{
+  .transform-n2 {
     transform: rotate(-2deg);
   }
-  .transform-n3{
+  .transform-n3 {
     transform: rotate(-3deg);
   }
-  .transform-n4{
+  .transform-n4 {
     transform: rotate(-4deg);
   }
 }
-.followSubscribe{
-  .followSubscribe-style{
-    .follow-icon{
+.followSubscribe {
+  .followSubscribe-style {
+    .follow-icon {
       padding: 8px;
       color: #fff;
     }
   }
-  .follow-content-p{
+  .follow-content-p {
     height: 69px;
   }
-  .subscribe-content{
-    label{
+  .subscribe-content {
+    label {
       font-size: 16px;
-      height: 69px; 
+      height: 69px;
     }
-    input{
+    input {
       width: 100%;
       height: 55px;
       margin-bottom: 58px;
-      background-color: #F3F1E5;
-      @include mobile{
+      background-color: #f3f1e5;
+      @include mobile {
         margin-bottom: 16px;
       }
     }
   }
-  .subscribe-content-a{
+  .subscribe-content-a {
     width: 100%;
     font-weight: 700;
     font-size: 20px;
     text-align: center;
-    @include mobile{
+    @include mobile {
       font-size: 16px;
     }
   }
-
 }
-.dreams-content{
-  h3{
+.dreams-content {
+  h3 {
     font-size: 32px;
-    @include mobile{
+    @include mobile {
       font-size: 18px;
     }
   }
-  p{
-    @include mobile{
+  p {
+    @include mobile {
       font-size: 18px;
       font-size: 14px;
     }
