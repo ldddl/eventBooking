@@ -1,0 +1,50 @@
+.online {
+  .online-content {
+    h2 {
+      font-size: 64px;
+      @include pad {
+        font-size: 24px;
+      }
+    }
+    p {
+      font-size: 32px;
+      font-weight: 700;
+      @include mobile {
+        font-size: 16px;
+      }
+    }
+  }
+  .online-image {
+    background: url(/assets/images/event/online.jpg);
+    background-size: cover; /* 充滿整個容器 */
+    background-position: 0px 33%;
+    background-repeat: no-repeat;
+    height: 100%;
+    @include pad {
+      height: 399.33px;
+    }
+    @include mobile {
+      background-position: 0px 32%;
+      height: 154px;
+    }
+  }
+  .online-image-content {
+    h3 {
+      font-size: 32px;
+      line-height: 1.5;
+    }
+    li {
+      padding: 4px 24px;
+      border-left: 4px solid #000;
+      border-top: 1px solid #000;
+      border-bottom: 1px solid #000;
+      border-right: 1px solid #000;
+      @include mobile {
+        padding: 4px 16px;
+      }
+    }
+  }
+  .pStyle {
+    font-size: 20px;
+  }
+}

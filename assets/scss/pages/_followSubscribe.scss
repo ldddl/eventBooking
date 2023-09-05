@@ -1,0 +1,48 @@
+.followSubscribe {
+  .followSubscribe-style {
+    width: 50%;
+    @include media-breakpoint-down(md) {
+      width: 100%;
+    }
+    .follow-icon {
+      padding: 8px;
+      color: #fff;
+    }
+  }
+  .follow-content-p {
+    line-height: normal;
+    height: 69px;
+    @include pad {
+      height: 96px;
+      // margin-bottom: 16px;
+    }
+  }
+  .subscribe-content {
+    label {
+      line-height: normal;
+      font-size: 16px;
+      height: 69px;
+    }
+    input {
+      width: 100%;
+      height: 55px;
+      margin-bottom: 58px;
+      background-color: #f3f1e5;
+      @include media-breakpoint-down(md) {
+        margin-bottom: 32px;
+      }
+      @include media-breakpoint-down(sm) {
+        margin-bottom: 16px;
+      }
+    }
+  }
+  .subscribe-content-a {
+    width: 100%;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    @include mobile {
+      font-size: 16px;
+    }
+  }
+}

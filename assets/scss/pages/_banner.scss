@@ -1,0 +1,32 @@
+.banner {
+  background: url("/assets/images/event/13.jpg") center/cover;
+  .banner-image {
+    h2 {
+      margin-bottom: 279px;
+      font-size: 60px;
+      @include pad {
+        margin-bottom: 210px;
+        font-size: 32px;
+      }
+      @include mobile {
+        max-width: 113px;
+      }
+    }
+  }
+  .banner-text {
+    text-align: center;
+    @include pad {
+      text-align: left;
+    }
+    h3 {
+      font-size: 24px;
+      @include pad {
+        font-size: 18px;
+      }
+    }
+    p {
+      margin: 0 auto;
+      max-width: calc((832px / 1416px) * 100%);
+    }
+  }
+}

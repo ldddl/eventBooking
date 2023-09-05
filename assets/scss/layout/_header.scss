@@ -16,7 +16,6 @@
 }
 .nav-form{
   @include pad {
-    // width: 61.65%;
     width: calc((246px / 399px)*100%);
   }
 }

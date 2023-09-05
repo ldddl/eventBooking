@@ -1,0 +1,29 @@
+.explore-more {
+  img {
+    width: 80px;
+    @include pad {
+      width: 40px;
+    }
+  }
+  p {
+    font-weight: 700;
+  }
+  .explore-more-pStyle {
+    font-size: 24px;
+    @include mobile {
+      font-size: 16px;
+    }
+  }
+  .explore-more-p {
+    font-size: 48px;
+    line-height: 1.25;
+
+    @include pad {
+      line-height: 1.33;
+      font-size: 24px;
+    }
+  }
+  .explore-more-a {
+    height: 100%;
+  }
+}

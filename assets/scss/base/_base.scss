@@ -14,7 +14,15 @@ a {
   text-decoration:none;
 }
 a:hover {
-  opacity: 0.8;
+  // opacity: 0.8;
+  color: $secondary !important;
+}
+.mw-1296{
+  padding: 0px 72px;
+  margin: 0px auto;
+  @include media-breakpoint-down(lg) {
+    padding: 0px 12px;
+  }
 }
 ul{
   margin: 0;

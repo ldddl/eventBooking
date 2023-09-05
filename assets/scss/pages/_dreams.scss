@@ -1,0 +1,14 @@
+.dreams-content {
+  h3 {
+    font-size: 32px;
+    @include mobile {
+      font-size: 18px;
+    }
+  }
+  p {
+    @include mobile {
+      font-size: 18px;
+      font-size: 14px;
+    }
+  }
+}

@@ -7,13 +7,19 @@
 @import './vendors/icofont/icofont.min.css';
 
 @import './base/base';
+@import './base/utility';
 
-
-@import './layout/header.scss';
-@import './layout/footer.scss';
-
-@import './pages/login.scss';
-@import './pages/index.scss';
+@import './layout/header';
+@import './layout/footer';
 
 @import './components/marquee';
 
+@import './pages/dreams';
+@import './pages/followSubscribe';
+@import './pages/photoGallery';
+@import './pages/online';
+@import './pages/recent';
+@import './pages/explore-more';
+@import './pages/banner';
+@import './pages/login';
+@import './pages/index';
